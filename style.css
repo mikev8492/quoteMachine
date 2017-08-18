@@ -1,0 +1,119 @@
+/* Main style */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+body {
+	background: url(https://dl.dropboxusercontent.com/s/hoe5ym2cgbc4l6l/pexels-photo-407294.jpeg?dl=0)
+		no-repeat
+		center;
+
+	background-size: cover;
+	padding-bottom: 25em;
+}
+
+.main {
+	font-family: 'Playfair Display', serif;
+	position: relative;
+	width: 100%;
+}
+/*Header styling*/
+.main .header {
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	top: 2em;
+	background-color: rgba(250, 250, 250, 0.9);
+}
+.main h1 {
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+}
+.main h2 {
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 10px;
+}
+/*Quote styling*/
+.main .container {
+	max-width: 55em;
+	text-align: center;
+	position: relative;
+	top: 15em;
+}
+
+p#quote {
+	color: #000;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 35px;
+	position: relative;
+}
+p#author {
+	color: #000;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+	position: relative;
+}
+/*Button styling*/
+.button {
+	position: relative;
+	margin-top: 1em;
+	background-color: rgba(250, 250, 250, 1);
+	color: black;
+	border: none;
+	border-radius: 2px;
+	padding: 15px 32px;
+	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	box-shadow: 0px 0px 20px 0px #000000;
+}
+.button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+/*Twitter button */
+#twitter {
+	margin-top: 1em;
+}
+
+/* Footer Styles */
+#footer {
+	height: 10%;
+	width: 100%;
+	background-color: rgba(250, 250, 250, 1);
+	text-align: center;
+	box-shadow: 0px 0px 6px #000000;
+}
+#footer h3 {
+	font-size: 18px;
+}
+#footer h3 strong:hover {
+	color: #dea26c;
+	transition: color 0.4s;
+}
+
+/* Icons*/
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/*^^^removes default line between icons*/
+i.fa {
+	color: rgba(1, 1, 1, 0.6);
+	padding-right: 0.5em;
+}
+
+i.fa:hover {
+	color: #dea26c;
+	transition: color 0.4s;
+	cursor: pointer;
+}
